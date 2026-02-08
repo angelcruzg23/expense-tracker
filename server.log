@@ -1,0 +1,147 @@
+INFO:     Will watch for changes in these directories: ['/Users/angelcruz/Documents/Proyectos/ControlGastos/expense-tracker']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [51772] using WatchFiles
+INFO:     Started server process [51776]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:56604 - "GET /categorias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56608 - "GET /bancos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56636 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56644 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56644 - "GET /static/js/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56645 - "GET /bancos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56650 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56644 - "GET /categorias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56652 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56645 - "GET /bancos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56650 - "GET /categorias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56645 - "GET /resumen?mes=2&anio=2026 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56650 - "GET /gastos?mes=2&anio=2026&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56644 - "GET /resumen?mes=2&anio=2026 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56652 - "GET /gastos?mes=2&anio=2026&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56652 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56665 - "PUT /categorias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56665 - "GET /categorias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56665 - "GET /resumen?mes=2&anio=2026 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56677 - "POST /medios-pago HTTP/1.1" 201 Created
+INFO:     127.0.0.1:56677 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56681 - "POST /medios-pago HTTP/1.1" 201 Created
+INFO:     127.0.0.1:56681 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56685 - "POST /medios-pago HTTP/1.1" 201 Created
+INFO:     127.0.0.1:56685 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56690 - "POST /bancos HTTP/1.1" 201 Created
+INFO:     127.0.0.1:56690 - "GET /bancos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56695 - "DELETE /medios-pago/1 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56695 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56695 - "DELETE /medios-pago/2 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56695 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56695 - "DELETE /medios-pago/3 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56695 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56699 - "POST /medios-pago HTTP/1.1" 201 Created
+INFO:     127.0.0.1:56699 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56702 - "POST /medios-pago HTTP/1.1" 201 Created
+INFO:     127.0.0.1:56702 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56713 - "POST /medios-pago HTTP/1.1" 201 Created
+INFO:     127.0.0.1:56713 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56715 - "POST /medios-pago HTTP/1.1" 201 Created
+INFO:     127.0.0.1:56715 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56715 - "DELETE /medios-pago/2 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56715 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56715 - "DELETE /medios-pago/1 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56715 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56721 - "POST /medios-pago HTTP/1.1" 201 Created
+INFO:     127.0.0.1:56721 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56726 - "POST /medios-pago HTTP/1.1" 201 Created
+INFO:     127.0.0.1:56726 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56730 - "GET /subcategorias?categoria_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56735 - "POST /gastos HTTP/1.1" 201 Created
+INFO:     127.0.0.1:56737 - "GET /resumen?mes=2&anio=2026 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56735 - "GET /gastos?mes=2&anio=2026&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56743 - "PUT /categorias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56745 - "PUT /categorias/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56746 - "PUT /categorias/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56750 - "PUT /categorias/5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56748 - "PUT /categorias/4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56751 - "PUT /categorias/6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56745 - "PUT /categorias/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56743 - "PUT /categorias/8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56748 - "PUT /categorias/9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56748 - "GET /categorias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56748 - "GET /resumen?mes=2&anio=2026 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56760 - "GET /subcategorias?categoria_id=6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56764 - "POST /gastos HTTP/1.1" 201 Created
+INFO:     127.0.0.1:56766 - "GET /resumen?mes=2&anio=2026 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56764 - "GET /gastos?mes=2&anio=2026&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56769 - "PUT /categorias/6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56769 - "GET /categorias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56769 - "GET /resumen?mes=2&anio=2026 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56772 - "PUT /categorias/6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56772 - "GET /categorias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56772 - "GET /resumen?mes=2&anio=2026 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56775 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56775 - "GET /static/js/app.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56777 - "GET /bancos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56779 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56775 - "GET /categorias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56777 - "GET /bancos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56781 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56779 - "GET /categorias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56781 - "GET /resumen?mes=2&anio=2026 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56779 - "GET /gastos?mes=2&anio=2026&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56781 - "GET /resumen?mes=2&anio=2026 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56779 - "GET /gastos?mes=2&anio=2026&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56787 - "PUT /categorias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56788 - "PUT /categorias/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56790 - "PUT /categorias/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56791 - "PUT /categorias/4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56793 - "PUT /categorias/5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56794 - "PUT /categorias/6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56787 - "PUT /categorias/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56788 - "PUT /categorias/8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56791 - "PUT /categorias/9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56791 - "GET /categorias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56791 - "GET /resumen?mes=2&anio=2026 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56824 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56824 - "GET /static/js/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56825 - "GET /bancos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56827 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56824 - "GET /categorias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56825 - "GET /bancos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56829 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56827 - "GET /categorias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56962 - "GET /api HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56965 - "GET /cuentas-bancarias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56985 - "GET /ingresos?mes=2&anio=2026 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56998 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56998 - "GET /static/js/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56999 - "GET /bancos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57005 - "GET /cuentas-bancarias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57006 - "GET /ingresos?mes=2&anio=2026&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57004 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56998 - "GET /categorias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57006 - "GET /cuentas-bancarias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57008 - "GET /ingresos?mes=2&anio=2026&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56999 - "GET /bancos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57005 - "GET /medios-pago HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57004 - "GET /categorias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57005 - "GET /resumen?mes=2&anio=2026 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57004 - "GET /gastos?mes=2&anio=2026&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57005 - "GET /resumen?mes=2&anio=2026 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57004 - "GET /gastos?mes=2&anio=2026&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57015 - "POST /cuentas-bancarias HTTP/1.1" 201 Created
+INFO:     127.0.0.1:57015 - "GET /cuentas-bancarias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57017 - "POST /bancos HTTP/1.1" 201 Created
+INFO:     127.0.0.1:57017 - "GET /bancos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "POST /cuentas-bancarias HTTP/1.1" 201 Created
+INFO:     127.0.0.1:57019 - "GET /cuentas-bancarias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "PUT /cuentas-bancarias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /cuentas-bancarias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57023 - "POST /cuentas-bancarias HTTP/1.1" 201 Created
+INFO:     127.0.0.1:57023 - "GET /cuentas-bancarias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57026 - "PUT /cuentas-bancarias/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57026 - "GET /cuentas-bancarias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57042 - "POST /ingresos HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:57049 - "GET /subcategorias?categoria_id=6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57051 - "POST /gastos HTTP/1.1" 201 Created
+INFO:     127.0.0.1:57053 - "GET /resumen?mes=2&anio=2026 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57051 - "GET /gastos?mes=2&anio=2026&limit=100 HTTP/1.1" 200 OK
