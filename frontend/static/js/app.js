@@ -1,4 +1,13 @@
-const API_URL = 'http://localhost:8000';
+// Detectar automáticamente la URL de la API
+const API_URL = window.location.origin;
+
+// Log de debug para verificar la URL en consola
+console.log('🔧 API URL configurada:', API_URL);
+console.log('📍 Location:', {
+    origin: window.location.origin,
+    hostname: window.location.hostname,
+    protocol: window.location.protocol
+});
 
 function expenseTracker() {
     return {
